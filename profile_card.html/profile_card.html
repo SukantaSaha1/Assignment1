@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Card</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #181b5c;
+    }
+
+    .card {
+        width: 300px;
+        height: 400px;
+        background-color: #606c77;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .name {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333333;
+        margin-bottom: 5px;
+    }
+
+    .occupation {
+        font-size: 18px;
+        color: #555555;
+        margin-bottom: 5px;
+    }
+
+    .description {
+        font-size: 14px;
+        color: #3168a8;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        font-size: 14px;
+        color: #555555;
+    }
+</style>
+</head>
+<body>
+<div class="card">
+    <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+    <div class="name">Sukanta Saha</div>
+    <div class="occupation">Web Developer</div>
+    <div class="description">Passionate about creating web applications and learning new technologies.</div>
+    <div class="contact">
+        <p>Email: sukantasaha0182.ss@gmail.com</p>
+        <p>Mobile: +8801980457669</p>
+    </div>
+</div>
+</body>
+</html>
